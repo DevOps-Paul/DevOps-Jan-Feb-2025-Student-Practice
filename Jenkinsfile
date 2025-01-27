@@ -21,6 +21,7 @@ pipeline{
             gitCheckout(
                 branch: "main",
                 url: "https://github.com/DevOps-Paul/DevOps-Jan-Feb-2025-Student-Practice"
+                // make sur the link above match my Github link
             )
             }
         }
