@@ -1,4 +1,4 @@
-//******Jenkinsfile1 code start here******
+/*Jenkinsfile1 code start here
 
 pipeline{
     agent any
@@ -16,9 +16,10 @@ pipeline{
 
 }
 }
-************END**********
 
-//******Jenkinsfile code start here******
+END */
+
+/Jenkinsfile code start here
 
 @Library('my-shared-library') _
 
