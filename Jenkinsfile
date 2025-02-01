@@ -10,7 +10,7 @@ pipeline{
         choice(name: 'action', choices: 'create\ndelete', description: 'Choose create/Destroy')
         string(name: 'ImageName', description: "name of the docker build", defaultValue: 'javapp')
         string(name: 'ImageTag', description: "tag of the docker build", defaultValue: 'v1')
-        string(name: 'DockerHubUser', description: "name of the Application", defaultValue: 'paulintx')
+        string(name: 'DockerHubUser', description: "name of the Application", defaultValue: 'DevOps-Paul')
     }
 
     stages{
@@ -20,8 +20,8 @@ pipeline{
             steps{
             gitCheckout(
                 branch: "main",
-                url: "https://github.com/DevOps-Paul/DevOps-Jan-Feb-2025-Student-Practice"
-                // make sur the link above match my Github link
+                url: "https://github.com/DevOps-Paul/DevOps-Jan-Feb-2025-Student-Practice.git"
+                // make sure the link above match my Github link
             )
             }
         }
